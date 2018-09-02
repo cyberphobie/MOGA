@@ -4,8 +4,8 @@ Make bigOil Great Again!
 !Credits to TdlQ and Dr_Newbie!
 
 This will change the second day of BigOil:
-  - If a clipboard is picked up, it gets transferred to the Whiteboard in the basement
-  - If both clipboards are found, the correct engine will be marked
+  - If a clipboard is picked up, it gets transferred to the Whiteboard in the basement (synced between all players)
+  - If both clipboards are found, the correct engine will be marked (not synced yet)
   
 INSTALLATION:
   - requires BLT2 or SuperBLT
