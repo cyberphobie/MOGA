@@ -4,6 +4,7 @@
 	"description" : "Credits to TdlQ and Dr_Newbie",
 	"author" : "Cyberphobie",
 	"color" : "0.52 1 0",
+	"image" : "icon.png",
 	"contact" : "",
 	"version" : "1",
 	"hooks" : [
