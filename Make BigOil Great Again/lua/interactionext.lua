@@ -67,6 +67,7 @@ end)
 Hooks:Add('NetworkReceivedData', 'NetworkReceivedData_MDF', function(sender, messageType, data)
 	if messageType == 'ClueFound' then
 		if data then
+			CluesFound = CluesFound .. data
 			local id = _ids[tonumber(data)]
 			local unit = id and managers.worlddefinition:get_unit(id)
 			if alive(unit) and unit:interaction() then
