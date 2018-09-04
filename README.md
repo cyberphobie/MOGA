@@ -12,6 +12,5 @@ INSTALLATION:
   - simply copy the "Make bigOil Great Again"-Folder into your mods folder
   
 KNOWN ISSUES:
-- Waypoint for the correct engine doesn't get removed when engine is picked up
 - Waypoints are not synced between players. Currently, only the player picking up the second clipboard will see the correct engine.
 - This mod currently ignores the existance of the computer showing the pressure. This feature might not be added.
