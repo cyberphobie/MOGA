@@ -66,8 +66,11 @@ end)
 
 Hooks:Add('NetworkReceivedData', 'NetworkReceivedData_MDF', function(sender, messageType, data)
 	if messageType == 'ClueFound' then
-		if data then
+		if data then			
 			CluesFound = CluesFound .. data
+			if string.len(CluesFound) >= 7 then
+				EngineHelper:_set_waypoint()
+			end
 			local id = _ids[tonumber(data)]
 			local unit = id and managers.worlddefinition:get_unit(id)
 			if alive(unit) and unit:interaction() then

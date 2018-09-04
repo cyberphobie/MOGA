@@ -14,7 +14,7 @@ function EngineHelper:_add_waypoint(name, position)
 	if name and position then
 		self:_remove_waypoint(name)
 		managers.hud:add_waypoint(
-			'_ThisOne_' .. name, {
+			'ThisOne_' .. name, {
 			icon = 'equipment_vial',
 			distance = true,
 			position = position,
@@ -29,5 +29,5 @@ function EngineHelper:_add_waypoint(name, position)
 end
 
 function EngineHelper:_remove_waypoint(id)
-	managers.hud:remove_waypoint("EngineHelperWaypoint_ThisOne_" .. id)
+	managers.hud:remove_waypoint("ThisOne_" .. id)
 end
