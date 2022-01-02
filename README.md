@@ -13,4 +13,4 @@ INSTALLATION:
   
 KNOWN ISSUES:
 - Waypoints are not synced between players. Currently, only the player picking up the second clipboard will see the correct engine.
-- This mod currently ignores the existance of the computer showing the pressure. This feature might not be added.
+- This mod currently ignores the existence of the computer showing the pressure. This feature might not be added.
